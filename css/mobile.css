@@ -1,0 +1,45 @@
+@media (max-width: 600px) {
+  section > .container {
+    width: 600px;
+    margin-left: 0;
+  }
+  h1 {
+    margin: auto;
+    color: red;
+  }
+  .border {
+    width: 450px;
+  }
+  .container-nav {
+    display: block;
+  }
+  .container-nav a {
+    border: none;
+  }
+  .container-about {
+    display: block;
+  }
+  #personal-info.about {
+    margin: 0;
+    padding: 30px;
+  }
+  .job-info {
+    display: block;
+  }
+
+  .certificate {
+    display: flex;
+    flex-direction: column;
+  }
+  .certificate-child {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-grid-child img {
+    max-width: 600px;
+  }
+}

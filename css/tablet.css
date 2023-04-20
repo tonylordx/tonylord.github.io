@@ -1,0 +1,41 @@
+@media (max-width: 900px) {
+  section > .container {
+    width: 900px;
+    margin: auto;
+    padding: 10px 10px;
+  }
+  #job-info {
+    width: 800px;
+  }
+  h1 {
+    margin: auto;
+    color: blue;
+  }
+  .nguyenvan-nav {
+    display: none;
+  }
+  .container-nav {
+    grid-template-columns: auto auto auto auto auto;
+  }
+  section#nav-bar {
+    padding: 20px;
+  }
+  #target.about {
+    padding: 30px;
+  }
+  .job-info {
+    grid-template-columns: 50% 50%;
+  }
+
+  .hobby-icon {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .hobby-icon > div {
+    margin: 0;
+  }
+  .certificate-child {
+    display: flex;
+    flex-direction: column;
+  }
+}

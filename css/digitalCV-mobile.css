@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+  section > .container {
+    width: 280px;
+    margin: auto;
+    padding: 0px;
+    grid-template-columns: 280px;
+    gap: 25px;
+    border: 15px solid hsl(238, 96%, 50%);
+  }
+  .goal-icon {
+    padding-left: 10px;
+  }
+  .goal-icon::before {
+    left: 45%;
+  }
+  .inOut {
+    padding-left: 20px;
+  }
+  .member-icon {
+    padding-left: 20px;
+  }
+  .member-icon::before {
+    left: 45%;
+  }
+  .question-icon {
+    padding-left: 20px;
+  }
+  .question-icon::before {
+    left: 45%;
+  }
+}

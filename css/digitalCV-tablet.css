@@ -1,0 +1,72 @@
+@media (max-width: 900px) {
+  section > .container {
+    width: 630px;
+    margin: auto;
+    padding: 10px;
+    grid-template-columns: 630px;
+    gap: 25px;
+    border: 15px solid hsl(238, 96%, 50%);
+  }
+
+  h3 {
+    margin-top: 40px;
+  }
+  .goal-icon {
+    padding-left: 50px;
+  }
+  .goal-icon::before {
+    top: -20px;
+    left: 300px;
+    width: 20px;
+    height: 20px;
+  }
+  .goal {
+    grid-row: 1;
+  }
+  .team {
+    grid-row: 3;
+  }
+  .scopes {
+    grid-row: 2;
+  }
+  .primary {
+    grid-row: 4;
+  }
+  .timeline {
+    grid-row: 5;
+    grid-column: 1;
+  }
+
+  .inOut {
+    display: block;
+    padding-left: 50px;
+  }
+  .member-icon {
+    padding-left: 50px;
+  }
+  .member-icon::before {
+    top: -20px;
+    left: 300px;
+    width: 20px;
+    height: 20px;
+  }
+  .timeline-child {
+    display: block;
+  }
+  .timeline-child h3 {
+    margin: 10px 0px;
+  }
+  .question-icon {
+    margin-top: 50px;
+  }
+  .question-icon::before {
+    top: -20px;
+    left: 300px;
+    width: 20px;
+    height: 20px;
+  }
+  .icon {
+    margin-top: 15px;
+    /* margin-left: 50px; */
+  }
+}
